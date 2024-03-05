@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    <!-- <meta name="author" content="Haroon">-->
+
+    <title>
+        Online Milk Delivery, Buy Fresh Milk & Daily Needs to Home - EatFresh 
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <script type="text/javascript" src="carousel.js"></script>
+    <link rel="icon" type="image/ico" href="img/favi.webp" />
+    <link rel="canonical" href="https://www.EatFresh.com/" />
+
+    <script>
+        $(document).ready(function() {
+            $(".navbar-nav li a").click(function(event) {
+                $(".navbar-collapse").collapse("hide");
+            });
+        });
+    </script>
+
+    <script>
+        $(function() {
+            $(document).scroll(function() {
+                var $nav = $(".fixed-top");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143613964-1"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+        gtag("config", "UA-143613964-1");
+    </script>
+    <!-- Top scroll btn-->
+
+
+</head>
+
+<body>
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="navbar-header">
+            <a class="navbar-brand img-fluid" href="index.html"><img src="img/logo.png"
+          style="max-width: 170px; max-height: 120px" alt="EatFreshlogo" /></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="collapse_target">
+            <ul class="navbar-nav ml-auto mr-5">
+                <li class="nav-item">
+                    <a class="nav-link pr-3" href="index.html"> Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link pr-3" href="#howitworks"> How it works</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link pr-3" href="#whybb"> Why EatFresh</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link pr-3" href="#range"> Range</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link pr-3" href="#guarantees">Guarantees</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link pr-3" href="#contactus"> Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navigation ends here -->
+
+    <!--Hero-->
+
+    <a id=""></a>
+
+    <div id="hero" class="container-fluid">
+        <div class="  banner_section">
+            <div class="row text-center">
+                <div class="col-md-6 col-sm-6 ">
+                    <div class="white_text">
+                        <div class="col-12"><img src="img/new_banner/main.png" class="img-fluid"></div>
+                        <div class="row">
+                            <div class="col-md-4 col-4 w_im">
+                                <a href="milk.html"> <img src="img/new_banner/button1.png" class="img-fluid"></a>
+                            </div>
+                            <div class="col-md-4 col-4 w_im">
+                                <a href="subscription.html">  <img src="img/new_banner/button2.png" class="img-fluid"></a>
+                            </div>
+                            <div class="col-md-4 col-4 w_im">
+                                <a href="HFD.html">  <img src="img/new_banner/button3.png" class="img-fluid"></a>
+                            </div>
+                            <div class="col-md-4 col-4 w_im">
+                            </div>
+                            <!-- <div class="col-md-4 col-4 w_im">
+                                <a href="bank.html">  <img src="img/new_banner/Button4.png" class="img-fluid"></a>
+                            </div> -->
+                            <div class="col-md-4 col-4 w_im">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6  col-sm-6">
+                    <div class="phone_img">
+
+                        <div class="scaner text-center">
+
+                            <div class="col-12">
+                                <h6>Scan the QR code<br> and download<br> the App now</h6>
+                            </div>
+                            <div class="col-12 p-0">
+                                <img src="img/new_banner/qrcode.png" class="img-fluid sc1">
+                            </div>
+                            <div class="col-12 p-0">
+                                <a href="https://play.google.com/store/apps" target="_blank" > <img src="img/new_banner/play_store.png" class="img-fluid sc2">
+             </a> </div>
+                            <div class="col-12 p-0">
+                                <a href="https://www.apple.com/in/app-store/" target="_blank"><img src="img/new_banner/app store.png" class="img-fluid sc3"> </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid banner-2">
+        <div class="row">
+            <div class="col-12 p-0">
+                <a href="startfresh.html"> <img src="img/strap2.jpg" class="img-fluid">
+   </a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid banner-3">
+        <div class="row">
+            <div class="col-12 p-0 text-center">
+                <a href="startfresh.html"> <img src="img/strap.jpg" class="img-fluid">
+              
+ </a>
+                <a href="startfresh.html"> <img src="img/strap_bt.jpg" class="img-fluid strap_bt">
+              
+ </a>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 main_ub" style="display:none">
+        <div class="row">
+            <div class="col-4 text-center">
+                <div class="bb_im">
+                    <a href="start fresh.html"><button style="border: none; background-color: transparent">
+            <img src="img/fresho logo png.png" class="img-fluid" /></button></a>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="bb_im">
+                    <a href="offers.html"><button style="border: none; background-color: transparent">
+            <img src="img/Offer.png" class="img-fluid"  /></button></a>
+                </div>
+            </div>
+            <div class="col-4 text-center">
+                <div class="bb_im">
+                    <a href="HFD.html"><button style="border: none; background-color: transparent">
+            <img src="img/HFD png.png" class="img-fluid"  /></button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--Heroends-->
+
+    <a id="howitworks"></a>
+    <div class="container" style="background-color: #fdfdfd">
+        <div class="row mx-auto" style="background-color: #fdfdfd">
+            <div class="h3 underlines2 mx-auto" style="padding-top: 10%">
+                <b style="font-weight: 600">How it works</b>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md col-sm-6 col-xs-12">
+                    <img src="img/new_screenshorts/1.jpg" alt="Snow" style="width: 100%" />
+                </div>
+                <div class="col-md col-sm-6 col-xs-12">
+                    <img src="img/new_screenshorts/2.jpg" alt="Forest" style="width: 100%" />
+                </div>
+                <div class="col-md col-sm-6 col-xs-12">
+                    <img src="img/new_screenshorts/3.jpg" alt="Mountains" style="width: 100%" />
+                </div>
+                <div class="col-md col-sm-6 col-xs-12">
+                    <img src="img/new_screenshorts/4.jpg" alt="Forest" style="width: 100%" />
+                </div>
+                <div class="col-md col-sm-6 col-xs-12">
+                    <img src="img/new_screenshorts/5.jpg" alt="Forest" style="width: 100%" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a id="whybb"></a>
+    <div id="whyEatFresh">
+        <div class="container text-center pt-md-5 pb-md-5 mt-md-5 mb-md-5">
+            <div class="h3 underlineh3 align-center pt-5 whytitle">
+                <b>Why</b> use EatFresh?
+            </div>
+
+            <div class="row mx-auto EatFreshrow" style="padding-top: 4%">
+                <!--- <div class="col-6 col-md">
+            <div class="card EatFreshcard" style="width: 190px">
+              <img src="img/EatFreshicon2.png" class="mx-auto" alt="..." style="width: 80px" />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  <b>Freshness</b><br /><span style="font-size: 0.8em">
+                    You can trust</span>
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-6 col-md">
+            <div class="card EatFreshcard" style="width: 190px">
+              <img src="img/EatFreshicon1.png" class="mx-auto" alt="..." style="width: 80px" />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  <b>Reliability</b><br /><span style="font-size: 0.8em">
+                    Daily delivery<br />
+                    Before 7:00 AM</span>
+                </p>
+              </div>
+            </div>
+          </div>-->
+                <div class="col-6 col-md-4 text-center">
+                    <div class="card EatFreshcard">
+                        <img src="img/icon3.png" class="mx-auto" alt="..." style="width: 80px" />
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <b>Convenience</b><br /><span style="font-size: 0.8em">
+                    Easy to use 
+                    (Subscribe - pause & resume anytime)</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 text-center">
+                    <div class="card EatFreshcard">
+                        <img src="img/icon4.png" class="mx-auto" alt="..." style="width: 80px" />
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <b>Choice</b><br /><span style="font-size: 0.8em">
+                    Wide range of milk + other daily essentials</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 text-center">
+                    <div class="card EatFreshcard">
+                        <img src="img/icon5.png" class="mx-auto" alt="..." style="width:140px" />
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                <b></b></b><br> <span style="font-size: 0.8em">No Minimum Order</span>
+                                <!--<br><span style="font-size:.8em">
+                          Order</span>-->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Range -->
+
+    <a id="range"></a>
+    <div id="range_section" class="container">
+        <div class="h3 underlineh3 align-center pt-5 text-center mx-auto" style="font-weight: 100">
+            Explore our <b style="font-weight: 600">Range</b> of Products<br>
+            <h6><i>Click on each icons to shop now</i></h6>
+
+        </div>
+
+        <div class="row mx-auto pt-5">
+            <div class="col-lg-2 col-6">
+                <div class="card mx-auto">
+                 <img src="img/new_cat/Fresh-Milk-680X680.jpg" class="card-img-top mx-auto"
+              alt="Order fresh milk to home" /></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                 <img src="img/new_cat/Fresh-Vegetables-680X680.jpg" class="card-img-top mx-auto"
+              alt="Buy fruits and vegetables online" /></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                   <img src="img/new_cat/Fresh-Fruits-680X680.jpg" class="card-img-top mx-auto"
+              alt="Buy fruits and vegetables online" /></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                   <img src="img/new_cat/Fresh-FishMeatEggs680X680.jpg" class="card-img-top mx-auto"
+              alt="Order bakery and dairy products" /></a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                    <img src="img/new_cat/FreshBakery_Dairy680X680.jpg" class="card-img-top mx-auto"
+              alt="Order bakery and dairy products" /></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                   <img src="img/new_cat/Beverages680X680.jpg" class="card-img-top mx-auto"
+              alt="Buy beverages online" /></a>
+
+                </div>
+            </div>
+
+
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                  <img src="img/new_cat/Breakfast_Snacks680X680.jpg" class="card-img-top mx-auto"
+              alt="Order breakfast and snacks" /></a>
+
+                </div>
+            </div>
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                    <img src="img/new_cat/Foodgrains_Oil_Masala680X680.jpg" class="card-img-top mx-auto"
+              alt="Foodgrains, oils and masala" />
+        </a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                 <img src="img/new_cat/PoojaNeeds680X680.jpg" class="card-img-top mx-auto"
+              alt="Buy Pooja items online" />
+          </a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                  <img src="img/new_cat/BabyCare680X680.jpg" class="card-img-top mx-auto"
+              alt="Buy Baby care products" />
+            </a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                    <img src="img/new_cat/Beauty_Hygiene680X680.jpg" class="card-img-top mx-auto"
+              alt="Personal care products" />
+         </a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                  <img src="img/new_cat/Cleaning_Household680X680.jpg" class="card-img-top mx-auto"
+              alt="Cleaning and household products" />
+            </a>
+                </div>
+            </div>
+
+
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                   <img src="img/new_cat/Kitchen_Garden_Pets680X680.jpg" class="card-img-top mx-auto"
+              alt="Cleaning and household products" />
+         </a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                   <img src="img/new_cat/Gourmet_WorldFood680X680.jpg" class="card-img-top mx-auto"
+              alt="Cleaning and household products" />
+           </a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-6">
+                <div class="card">
+                 <img src="img/new_cat/Subscribe_Forget_680X680.jpg" class="card-img-top mx-auto"
+              alt="Cleaning and household products" />
+             </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Guarantees -->
+    <a id="guarantees"></a>
+    <div class="jumbotron text-center container-fluid" style="padding-top: 4%">
+        <div class="container">
+            <div class="h3 underlinewhite align-center text-center mx-auto" style="font-weight: 100">
+                We<b style="font-weight: 600"> Guarantee you </b>
+            </div>
+
+            <div class="row mx-auto text-center" style="padding-top: 5%">
+                <div class="col-md-3 mx-auto" style="width: 18em">
+
+                </div>
+                <div class="col-md-3 mx-auto" style="width: 18em">
+                    <div class="card text-center guaranteecard">
+                        <img src="img/Guarantees_Icon-01.png" class="card-img-top-1 mx-auto" alt="..." style="width: 8em" />
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                In-time every <br /> time guaranteed
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mx-auto" style="width: 18em">
+                    <div class="card text-center guaranteecard">
+                        <img src="img/Guarantees_Icon-03.png" class="card-img-top-1 mx-auto" alt="..." style="width: 8em" />
+                        <div class="card-body">
+                            <p class="card-text text-center">
+                                Freshness you can trust<br /> (100% safe & unadulterated milk)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mx-auto" style="width: 18em">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p style="font-size:20px"><b>*T&C Apply. EatFresh service available only in selected societies</b></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Guarantees ends-->
+
+    <section>
+        <div class="container">
+            <div class="row text-center desktophide" style="padding-bottom: 20%">
+                <div class="col mx-auto">
+                    <a class="" href="Digitaloffers.html">Terms</a> |
+                    <a class="" href="policy.html">Privacy Policy</a> |
+                    <br />
+                </div>
+
+                <!-- <div id="bottom_footer" class="container-fluid text-center">
+                    <div class="row mx-auto">
+                        <div class="col-md-auto mx-auto">
+                            <p><b style="font-weight: 700">Cities We Serve</b><br /></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 text-center desktophide">
+                    <div class="col mx-auto">
+                        <a class="">Bangalore</a> | <a class="">Ahmedabad</a> |
+                        <a class="">Pune</a> | <a class="">Mumbai</a> |
+                        <br />
+                        <a class="">Gurgaon</a> | <a class="">Kolkata</a> |
+                        <a class="">Chennai</a> | <a class="">Delhi</a> |
+                        <br />
+                        <a class="">Noida</a> | <a class="">Hyderabad</a>|
+                        <a class=""> Lucknow </a> | <a class=""> Kanpur </a> |
+                        <br />
+                        <a class=""> Vishakhapatnam </a> | <a class=""> Vijayawada </a> |
+                        <a class=""> Guntur </a> | <a class=""> Chandigarh </a> |
+                        <br />
+                        <a class=""> Tricity </a> | <a class=""> Patna </a> |
+                        <a class=""> Indore </a> | <a class=""> Kochi </a> |
+                    </div> -->
+
+                    <div class="col-lg-12">
+                        <p align="center">Download now.</p>
+                        <div class="row justify-content-center" style="margin-top: -20px">
+                            <div class="col-12">
+                                <a href="https://play.google.com/store/apps/details?id=com.raincan.android.hybrid&hl=en_IN&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img
+                src="img/googleplay.png" class="logo1"
+                alt="Download EatFresh milk delivery app on Google Play Store" /></a>
+
+                                <a href="https://apps.apple.com/in/app/EatFresh/id1148331468"><img src="img/astore.png" class="logo2"
+                alt=" Download EatFresh app on Apple App Store" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <a id="contactus"></a>
+        <footer>
+            <div id="bottom_footer" class="container-fluid footer-text">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 mt-5 pt-4 footer-contact">
+                        <p><b style="font-weight: 700">Contact Us</b><br /></p>
+                        <p class="font-weight-light" style="font-size: 0.8em">
+                            <a style="color: white" href="mailto:support@amsfashion.in?subject=EatFresh Subscription">support@amsfashion.in</a><br /> +91-9966295297 <br> +91-9966295297
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 pt-4 mt-5" style="padding-left: 10%">
+                        <!-- <div class="row footer-text">
+                            <a class="" href="faq.html">FAQ</a>
+                        </div> -->
+
+                        <div class="row footer-text">
+                            <a class="" href="Digitaloffers.html">Terms</a>
+                        </div>
+                        <div class="row footer-text">
+                            <a class="" href="policy.html">Privacy Policy</a>
+                        </div>
+                        <!-- <div class="row footer-text">
+                            <a class="" href="contactlessdelivery.html">Contactless Delivery</a>
+                        </div>
+
+                        <div class="row footer-text">
+                            <a class="" href="gourment.html">Gourmet Store</a>
+                        </div>
+
+                        <div class="row footer-text">
+                            <a class="" href="newpage.html">bb new offers</a>
+                        </div>
+
+                        <div class="row footer-text">
+                            <a class="" href="Salesoffer.html">Sales offers</a>
+                        </div> -->
+
+                        <!-- <div class="row footer-text">
+              <a class="" href="Diwali.html">Diwali</a>
+            </div> -->
+
+                        <!-- <div class="row footer-text">
+                            <a class="" href="HFD.html">Zero delivery charge hack</a>
+                        </div>
+
+                        <div class="row footer-text">
+                            <a class="" href="milksd.html">Milk Subscription digital </a>
+                        </div>
+
+                        <div class="row footer-text">
+                            <a class="" href="autorecharge.html">Auto recharge</a>
+                        </div>
+
+                        <div class="row footer-text">
+                            <a class="" href="box.html">EatFresh Box</a>
+                        </div> -->
+
+
+                    </div>
+
+
+                    <div class="col-md-3 pt-5">
+                        <b style="font-weight: 700">Cities we serve</b>
+                        <div class="row city" style="margin-top: -10px">
+                            <div class="col-sm-4 text-justify font-weight-light">
+                                Hyderabad<br /> Bangalore
+                                <br /> Vishakhapatnam <br /> Chennai
+                                <br /> Ongole
+                                <br /> Guntur <br /> Kadapa
+                                <br /> Hospete
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 pt-4 mt-5">
+                        <b style="font-weight: 700">
+              &nbsp; &nbsp;Download the EatFresh app</b>
+                        <div class="row justify-content-center pt-0 mt-0">
+                            <div class="col-12">
+                                <a href="https://play.google.com/store/apps" target="_blank"><img
+                    class="img-fluid" width="110px" src="img/getAndriod_Logo.png"
+                    alt="Download EatFresh Android app" /></a>
+                                <a href="https://www.apple.com/in/app-store/" target="_blank"><img class="img-fluid"
+                    src="img/Apple_Logo.png" width="110px" alt="Download EatFresh iOS app" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <div id="mybutton" class="desktophide">
+        <div class="row p-0 m-0 justify-content-center" style="
+          height: 80px;
+          background-color: red !important;
+          width: 100vw !important;
+        ">
+            <div class="col-4 pt-1 pl-4">
+                <a href="start fresh.html"><img width="80px" height="80px" src="img/footer/msite_popups_FRESHO.png" /></a>
+            </div>
+            <div class="col-4 pt-2 pl-4">
+                <a href="offers.html"><img width="60px" height="60px" src="img/footer/EatFresh_POPUP_4_400px.png" /></a>
+            </div>
+            <div class="col-4 pt-2 pl-4">
+                <a href="HFD.html"><img width="60px" height="60px" src="img/footer/popup HFD.png" /></a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

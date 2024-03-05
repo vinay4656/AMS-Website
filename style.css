@@ -1,0 +1,1019 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url("https://use.typekit.net/zch2gan.css");
+@import url("https://use.typekit.net/zch2gan.css");
+.tncbody {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.tnchead {
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}
+
+.tncterms {
+    padding-top: 5%;
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}
+
+/*---Media Queries --*/
+
+@media (max-width: 1000px) {
+    footer {
+        display: none !important;
+    }
+}
+
+@media (max-width: 750px) {
+    .logo1 {
+        width: 110px !important;
+        height: auto !important;
+    }
+    .logo2 {
+        width: 120px !important;
+        height: auto !important;
+    }
+    #mybutton {
+        position: fixed;
+        bottom: -6px;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .mybutton4 {
+        position: fixed;
+        bottom: 2.5em;
+        right: 6.5em;
+        cursor: pointer;
+        z-index: 2;
+    }
+    #hero {
+        background: url("img/bbdailyTopBanner_600px.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+    }
+    .offersfont {
+        font-size: 2.5em;
+    }
+    .mobilehide {
+        display: none !important;
+    }
+    .desktophide>a {
+        color: white;
+        font-size: 0.8em;
+        font-weight: 100;
+        padding: 5px;
+    }
+    /* section 1 navbar */
+    .navbar-header img {
+        width: 150px;
+    }
+    /* section 2 hero */
+    .text-block {
+        padding-top: 20%;
+    }
+    .cities {
+        margin-left: 100px !important;
+    }
+    .glogo {
+        width: 140px;
+    }
+    .alogo {
+        width: 140px;
+    }
+    .display-5 {
+        font-size: 1em;
+        font-weight: 100;
+    }
+    p.title {
+        font-weight: 100;
+        font-size: 4em !important;
+        line-height: 60px;
+    }
+    p.fresh {
+        font-size: 1em !important;
+        padding-top: 8%;
+        font-weight: bolder !important;
+    }
+    p.fresh1 {
+        font-size: 1em !important;
+        padding-top: 5%;
+        font-weight: bolder !important;
+    }
+    .carouselimage {
+        display: none !important;
+    }
+    .carousel {
+        width: 10px;
+        height: 50px;
+        display: relative;
+        z-index: 1;
+        padding-bottom: none;
+        padding-left: 2%;
+    }
+    .s2 {
+        transform: translateX(-25em);
+        padding-top: 10%;
+        font-weight: 100;
+        background-color: #fbfbfb;
+        display: none !important;
+    }
+    /* section 3 why bbdaily */
+    .underlineh3::after {
+        display: none !important;
+    }
+    .underline::after {
+        display: none !important;
+    }
+    .underlinewhite::after {
+        display: none !important;
+    }
+    #whybbdaily {
+        background-size: cover !important;
+    }
+    .cardfirst {
+        padding-right: 20% !important;
+        margin: none;
+    }
+    img.card-img-top {
+        width: 140px !important;
+        height: auto;
+    }
+    img.card-img-top-1 {
+        width: 100px !important;
+        height: auto;
+    }
+    /* section 4 range */
+    #range_section {
+        padding-left: 4% !important;
+    }
+    .h3 {
+        font-size: 1.6em !important;
+    }
+    .card-text {
+        padding-left: 1% !important;
+    }
+    /* section 5 guarantees */
+    .jumbotron {
+        height: auto !important;
+    }
+    /* section 6 want bbdaily */
+    #bottom_footer {
+        color: black !important;
+        height: auto !important;
+        background: none !important;
+    }
+    footer {
+        background-color: white !important;
+        color: black !important;
+    }
+    a {
+        color: black !important;
+    }
+    .cities {
+        color: black !important;
+    }
+    .gif {
+        display: none !important;
+    }
+    .gif-m {
+        margin-left: -3em !important;
+    }
+    .card-1 {
+        padding-right: 1em !important;
+    }
+    .bbdailyrow {
+        padding-left: 15%;
+    }
+    #bottom_footer {
+        background: url("img/footer1.png") cover;
+        width: 100% !important;
+        height: auto;
+    }
+    .city {
+        display: none !important;
+    }
+    .cities {
+        display: none !important;
+    }
+    .bbdailycard {
+        width: 150px !important;
+        margin-left: -2.5em !important;
+    }
+}
+
+@media (min-width: 791px) {
+    .gif-m {
+        display: none !important;
+    }
+    .gif {
+        margin-left: 14em !important;
+        background-color: #F4F2F3;
+    }
+    .desktophide {
+        display: none !important;
+    }
+    .footer-contact {
+        padding-left: 15% !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .container {
+        width: 1370px;
+    }
+}
+
+.padtop {
+    margin-top: -18px;
+}
+
+.nav-item {
+    line-height: 60%;
+}
+
+.bbdailycard:hover {
+    background-color: transparent !important;
+}
+
+.guaranteecard:hover {
+    background-color: transparent !important;
+}
+
+.offer {
+    background-color: red;
+    font-weight: bold;
+    position: relative;
+    -webkit-animation: mymove 5s infinite;
+    /* Safari 4.0 - 8.0 */
+    animation: mymove 5s infinite;
+    font-size: 30px;
+}
+
+.text-block>.fresh {
+    transform: translateY(-2rem);
+}
+
+html,
+body {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-style: normal;
+    font-weight: 100;
+    align-items: center;
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+.s3 {
+    padding: 8% 0 7% 0;
+}
+
+.navbar-header img {
+    width: 130px;
+}
+
+html,
+body,
+header,
+#intro {
+    height: 100%;
+}
+
+.text-block {
+    margin-top: 90px;
+    color: black;
+}
+
+.text-block>p {
+    font-size: 1.1em;
+    font-weight: 100;
+}
+
+p.download {
+    font-weight: 100;
+    font-size: 0.9em;
+}
+
+.card-text {
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.card-1 {
+    box-sizing: border-box;
+    height: 10%;
+    width: 80%;
+}
+
+.card-1 img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.s2 {
+    padding-right: 15px;
+    padding-left: 365px;
+    margin-right: auto;
+    margin-left: auto;
+    float: center;
+    background-color: #fbfbfb;
+}
+
+#bottom_footer {
+    background: url("img/footer1.png") no-repeat bottom left;
+    background-size: 100% 90%;
+}
+
+.h2:after {
+    background: none repeat scroll 0 0;
+    bottom: -8px;
+    left: 20%;
+    content: "";
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.underlines2:after {
+    background: none repeat scroll 0 0 #16ab88;
+    bottom: -8px;
+    left: 15%;
+    content: "";
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 110px;
+    border-radius: 25px;
+}
+
+.underlineh3:after {
+    background: none repeat scroll 0 0 #16ab88;
+    bottom: -8px;
+    left: 45%;
+    content: "";
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 110px;
+    border-radius: 25px;
+}
+
+.underline:after {
+    background: none repeat scroll 0 0 #16ab88;
+    bottom: -8px;
+    left: 20%;
+    content: "";
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 110px;
+    border-radius: 25px;
+}
+
+.underlinewhite:after {
+    bottom: -8px;
+    left: 45%;
+    content: "";
+    display: block;
+    height: 5px;
+    position: relative;
+    width: 110px;
+    border-radius: 25px;
+    background: none repeat scroll 0 0 #fff;
+}
+
+.h3 {
+    font-size: 2em;
+}
+
+.card:hover {
+    background-color: #F4F2F3;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-header {
+    margin: 0 auto;
+    display: table;
+    margin-right: auto !important;
+    align-self: center;
+}
+
+a.navbar.navbar-brand::after {
+    align-self: center;
+}
+
+a.nav-link {
+    color: black !important;
+}
+
+a.nav-link:hover {
+    color: #16ab88 !important;
+}
+
+/*--- Bootstrap Padding Fix --*/
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/* Nav bar items*/
+
+.navbar-expand-md .navbar-nav>.active>a,
+.navbar-expand-md .navbar-nav>.active>a:hover,
+.navbar-expand-md .navbar-nav>.active>a:focus {
+    color: #16ab88;
+    /* <â€”â€“ change your color here*/
+    background-color: transparent;
+}
+
+.carousel-caption {
+    color: black;
+}
+
+.jumbotron {
+    background-color: #16ab88;
+    background-size: cover;
+    align-self: auto;
+    text-align: left;
+}
+
+footer {
+    color: white;
+    font-size: 1em;
+}
+
+#whybbdaily {
+    background: url("img/milkmilk.png");
+    background-size: 100vw 100vh;
+    background-position: center;
+}
+
+#hero {
+    background: url("img/new_banner/banner.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+.btn {
+    background-color: red !important;
+}
+
+.faq-btn {
+    background-color: #6c757db4 !important;
+    border-color: #6c757db4 !important;
+    color: #000;
+}
+
+.box-shadow--8dp {
+    box-shadow: 0 8px 10px 1px rgba(0, 0, 0, .14), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 5px 5px -3px rgba(0, 0, 0, .2)
+}
+
+.footer-text>a {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 100;
+}
+
+.city {
+    color: white;
+    font-size: 0.8em;
+}
+
+#carousel {
+    width: 200px;
+    height: 300px;
+    display: relative;
+    z-index: 1;
+    padding-bottom: none;
+}
+
+#carousel img {
+    display: hidden;
+    /* hide images until carousel prepares them */
+    cursor: pointer;
+    /* not needed if you wrap carousel items in links */
+}
+
+.carouselimage {
+    position: absolute;
+    z-index: 2;
+    transform: translateX(-2.5em);
+    display: block;
+}
+
+.fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.registerhere {
+    color: white;
+    padding: 12px;
+    border-color: none;
+    font-size: 15px;
+    color: white;
+}
+
+#mybutton {
+    position: fixed;
+    bottom: -6px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.mybutton4 {
+    position: fixed;
+    bottom: 2.5em;
+    right: 6.5em;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#communitybtn {
+    position: fixed;
+    bottom: 35px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#close-image img {
+    background: none !important;
+    height: 60px;
+    width: 200px;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: 0px;
+    transition: 0.4s;
+    padding: 5px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+.sidenav {
+    position: absolute;
+}
+
+#about {
+    background-color: red;
+}
+
+.mybutton1 {
+    position: fixed;
+    top: 140px;
+    left: -10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.mybutton2 {
+    position: fixed;
+    top: 280px;
+    left: -10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.mybutton3 {
+    position: fixed;
+    top: 370px;
+    left: -10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+/*card*/
+
+@media screen and (max-width: 700px) {
+    .mybutton {
+        width: 50px;
+    }
+    table,
+    th,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        font-size: 12px !important;
+    }
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
+    text-align: center;
+}
+
+.free {
+    background-color: yellow;
+    color: black;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #FF0000;
+}
+
+/* RED */
+
+/* 
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+ */
+
+.banner_section {
+    padding: 30px 50px;
+}
+
+.phone_img {
+    background-image: url(img/new_banner/Phone.png);
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.scaner .sc1 {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.scaner .sc2 {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.scaner .sc3 {
+    width: 150px;
+}
+
+.scaner {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 36%;
+    bottom: 0px;
+}
+
+.scaner h6 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.white_text {
+    padding: 10px 0px 0px 100px;
+}
+
+.white_text p {
+    color: #fff;
+    font-weight: 500;
+    font-size: 21px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.bb_im img {
+    height: 180px;
+    cursor: pointer;
+}
+
+.bb_im {
+    border: dashed 2px #16ab88;
+    padding: 10px;
+}
+
+.banner-2 {
+    display: block;
+}
+
+.banner-3 {
+    display: none;
+}
+
+.strap_bt {
+    margin-top: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+@media(max-width:575px) {
+    .banner-2 {
+        display: none;
+    }
+    .banner-3 {
+        display: block;
+    }
+    #mybutton {
+        display: none;
+    }
+    .st_fr {
+        width: 110px !important
+    }
+    .bb_im img {
+        height: auto;
+    }
+    .bb_im {
+        vertical-align: middle;
+        height: 121px;
+        display: table-cell;
+    }
+    #hero {
+        height: auto;
+    }
+    .banner_section {
+        padding: 30px 0px;
+    }
+    .main_ubs [class*="col-"] {
+        padding: 0px 15px;
+    }
+    .white_text {
+        padding: 30px 0px 0px;
+    }
+    .w_im {
+        padding: 20px 10px 0px 10px !important;
+    }
+    .white_text p {
+        font-size: 18px;
+    }
+    .scaner {
+        top: 40%;
+    }
+    .scaner h6 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 14px;
+    }
+    .phone_img {
+        height: 450px;
+        ;
+        background-position: top;
+    }
+    .scaner .sc1 {
+        width: 70px;
+        margin-bottom: 10px;
+    }
+    .scaner .sc2 {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .scaner .sc3 {
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    .banner_section [class*="col-"] {
+        padding: 0px 15px;
+    }
+}
+
+@media(min-width:575px) and (max-width:767px) {
+    .banner-2 {
+        display: none;
+    }
+    .banner-3 {
+        display: block;
+    }
+    .bb_im img {
+        height: auto;
+    }
+    .bb_im {
+        vertical-align: middle;
+        height: 150px;
+        display: table-cell;
+    }
+    #hero {
+        margin-top: 100px;
+        height: auto;
+    }
+    .white_text {
+        padding: 30px 0px 0px 0px;
+    }
+    .w_im {
+        padding: 20px 10px 0px 10px !important;
+    }
+    .white_text p {
+        font-size: 9px;
+    }
+    .scaner {
+        top: 40%;
+    }
+    .scaner h6 {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 10px;
+    }
+    .phone_img {
+        height: 300px;
+        background-position: top;
+    }
+    .scaner .sc1 {
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    .scaner .sc2 {
+        width: 60px;
+        margin-bottom: 10px;
+    }
+    .scaner .sc3 {
+        width: 60px;
+        margin-bottom: 10px;
+    }
+    .banner_section [class*="col-"] {
+        padding: 0px 15px;
+    }
+}
+
+@media(min-width:767px) and (max-width:991px) {
+    .banner-2 {
+        display: none;
+    }
+    .banner-3 {
+        display: block;
+    }
+    .st_fr {
+        width: 110px !important
+    }
+    .bb_im img {
+        height: 75px;
+    }
+    .bb_im {
+        height: auto;
+    }
+    .banner_section [class*="col-"] {
+        padding: 0px 15px;
+    }
+    .scaner .sc1 {
+        width: 40px;
+        margin-bottom: 8px;
+    }
+    .scaner .sc2 {
+        width: 60px;
+        margin-bottom: 8px;
+    }
+    .scaner .sc3 {
+        width: 60px;
+        margin-bottom: 8px;
+    }
+    .scaner {
+        position: relative;
+        left: 0px;
+        right: 0px;
+        top: 39%;
+        bottom: 0px;
+    }
+    .white_text {
+        padding: 0px 0px 0px 0;
+    }
+    .white_text p {
+        font-size: 11px;
+    }
+    #hero {
+        height: auto;
+    }
+    .scaner h6 {
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 10px;
+    }
+}
+
+@media(min-width:991px) and (max-width:1200px) {
+    .banner_section [class*="col-"] {
+        padding: 0px 15px;
+    }
+    .scaner .sc1 {
+        width: 56px;
+        margin-bottom: 12px;
+    }
+    .scaner .sc2 {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+    .scaner .sc3 {
+        width: 80px;
+        margin-bottom: 10px;
+    }
+    .scaner {
+        position: relative;
+        left: 0px;
+        right: 0px;
+        top: 39%;
+        bottom: 0px;
+    }
+    .white_text {
+        padding: 0px 0px 0px 0;
+    }
+    .white_text p {
+        font-size: 11px;
+    }
+    #hero {
+        height: auto;
+    }
+    .scaner h6 {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 12px;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1300px) {
+    .scaner h6 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 18px;
+    }
+    .scaner .sc1 {
+        width: 60px;
+        margin-bottom: 20px;
+    }
+    .scaner .sc2 {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    .scaner .sc3 {
+        width: 100px;
+    }
+}
+
+@media(min-width:1300px) and (max-width:1400px) {
+    .scaner h6 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 21px;
+    }
+    .scaner .sc1 {
+        width: 75px;
+        margin-bottom: 20px;
+    }
+    .scaner .sc2 {
+        width: 120px;
+        margin-bottom: 10px;
+    }
+    .scaner .sc3 {
+        width: 120px;
+    }
+}
